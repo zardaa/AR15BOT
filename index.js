@@ -248,8 +248,8 @@ conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.tex
 // Fitur A187id
 
 if (text.includes('$nulis')){
-  const nulis = text.replace(/$nulis /, '')
-    axios.get('https://bangandre.herokuapp.com/nulis?teks=${nulis}') .then((res) => {
+  const text = text.replace(/$nulis /, '')
+    axios.get('http://salism3.pythonanywhere.com/write?text=') .then((res) => {
       imageToBase64(res.data.result)
         .then(
           (ress) => {
