@@ -805,6 +805,98 @@ if (text.includes("$fotoanime"))
     
     });
     }
+
+if (text.includes("$loli"))
+   {
+    var items = ["anime loli","anime loli sange","anime loli fackgirll","anime loli i love you"];
+    var nime = items[Math.floor(Math.random() * items.length)];
+    var url = "https://api.fdci.se/rep.php?gambar=" + nime;
+    
+    axios.get(url)
+      .then((result) => {
+        var n = JSON.parse(JSON.stringify(result.data));
+        var nimek =  n[Math.floor(Math.random() * n.length)];
+        imageToBase64(nimek) 
+        .then(
+            (response) => {
+	var buf = Buffer.from(response, 'base64'); 
+              conn.sendMessage(
+            id,
+              buf,MessageType.image)
+       
+            }
+        )
+        .catch(
+            (error) => {
+                console.log(error);
+            }
+        )
+    
+    });
+    }
+    
+if (text.includes("$pokemon"))
+   {
+    var items = ["anime pokemon"];
+    var nime = items[Math.floor(Math.random() * items.length)];
+    var url = "https://api.fdci.se/rep.php?gambar=" + nime;
+    
+    axios.get(url)
+      .then((result) => {
+        var n = JSON.parse(JSON.stringify(result.data));
+        var nimek =  n[Math.floor(Math.random() * n.length)];
+        imageToBase64(nimek) 
+        .then(
+            (response) => {
+	var buf = Buffer.from(response, 'base64'); 
+              conn.sendMessage(
+            id,
+              buf,MessageType.image)
+       
+            }
+        )
+        .catch(
+            (error) => {
+                console.log(error);
+            }
+        )
+    
+    });
+    }
+  
+if (is == '$katabijak')
+      {
+
+         fetch('https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/katabijax.txt')
+            .then(res => res.text())
+            .then(body =>
+            {
+               let tod = body.split("\n");
+               let pjr = tod[Math.floor(Math.random() * tod.length)];
+               let randombijak = pjr.replace(/pjrx-line/g, "\n");
+               conn.sendMessage(id, randombijak, MessageType.text)
+            });
+      }   
+   }
+   if (messageType === MessageType.text)
+   {
+      let is = m.message.conversation.toLocaleLowerCase()
+
+      if (is == '$fakta')
+      {
+
+         fetch('https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/faktaunix.txt')
+            .then(res => res.text())
+            .then(body =>
+            {
+               let tod = body.split("\n");
+               let pjr = tod[Math.floor(Math.random() * tod.length)];
+               let randomnix = pjr.replace(/pjrx-line/g, "\n");
+               conn.sendMessage(id, randomnix, MessageType.text)
+            });
+      }   
+   }
+
  
 if (text.includes("$lirik")){
 	const teks = text.split("$lirik")[1]
