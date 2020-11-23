@@ -249,7 +249,7 @@ conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.tex
 
 if (text.includes('$nulis')){
   const text = text.replace(/$nulis /, '')
-    axios.get('http://salism3.pythonanywhere.com/write?text=') .then((res) => {
+    axios.get('http://salism3.pythonanywhere.com/write?text=${text}') .then((res) => {
       imageToBase64(res.data.result)
         .then(
           (ress) => {
