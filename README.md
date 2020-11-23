@@ -55,9 +55,15 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 |       ✅       | Wikipedia                        |
 |       ✅       | Say                              |
 |       ✅       | Toxic (new)                      |
+|       ✅       | loli.                            |
+|       ✅       | hentai                           |
 |       ✅       | Owner (new)                      |
+|       ✅       | kata bijak                       |
+|       ✅       | Fakta                            |
+|       ✅       | Pokemon                          |
 |       ✅       | Info                             |
 |       ✅       | Donate                           |
+Ket: Aktiv 24 jam
 
 ## Note
 BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA (ARIS187 ID)
