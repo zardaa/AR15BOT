@@ -906,7 +906,7 @@ if (is == '$katabijak')
                conn.sendMessage(id, randombijak, MessageType.text)
             });
       }   
-   }
+   
    
  
 if (text.includes("$lirik")){
