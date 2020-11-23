@@ -53,7 +53,12 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] AR15BOT By A187ID Ready Scan Now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] 
+    _    ____  ___ ____  _  ___ _____   ___ ____
+   / \  |  _ \|_ _/ ___|/ |( _ )___  | |_ _|  _ \
+  / _ \ | |_) || |\___ \| |/ _ \  / /   | || | | |
+ / ___ \|  _ < | | ___) | | (_) |/ /    | || |_| |
+/_/   \_\_| \_\___|____/|_|\___//_/    |___|____/`);
 });
 
 conn.on('credentials-updated', () =>
