@@ -907,25 +907,7 @@ if (is == '$katabijak')
             });
       }   
    }
-   if (messageType === MessageType.text)
-   {
-      let is = m.message.conversation.toLocaleLowerCase()
-
-      if (is == '$fakta')
-      {
-
-         fetch('https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/faktaunix.txt')
-            .then(res => res.text())
-            .then(body =>
-            {
-               let tod = body.split("\n");
-               let pjr = tod[Math.floor(Math.random() * tod.length)];
-               let randomnix = pjr.replace(/pjrx-line/g, "\n");
-               conn.sendMessage(id, randomnix, MessageType.text)
-            });
-      }   
-   }
-
+   
  
 if (text.includes("$lirik")){
 	const teks = text.split("$lirik")[1]
