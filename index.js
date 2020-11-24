@@ -102,8 +102,8 @@ conn.sendMessage(group.gid, "hello everyone", MessageType.extendedText) // say h
 }
 
 // FF A187 ID
-if(text.includes("#cek")){
-var num = text.replace(/#cek/ , "")
+if(text.includes("$cek")){
+var num = text.replace(/$cek/ , "")
 var idn = num.replace("0","+62");
 
 console.log(id);
@@ -140,7 +140,7 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '$owner'){
-conn.sendMessage(id, 'Owner AR15BOT wa.me/+6285712632324' ,MessageType.text);
+conn.sendMessage(id, 'Owner AR15BOT wa.me/+6285722553839' ,MessageType.text);
 }
 else if (text == 'Aris'){
 conn.sendMessage(id, 'Aku BOT nya Aris' ,MessageType.text);
@@ -231,7 +231,7 @@ conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.tex
 
 if (text.includes('$nulis')){
   var teks = text.replace(/$nulis /, '')
-    axios.get('https://bangandre.herokuapp.com/nulis?teks='+teks)
+    axios.get('https://bangandre.herokuapp.com/nulis?teks=+teks)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
