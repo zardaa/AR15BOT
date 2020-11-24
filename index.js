@@ -102,7 +102,7 @@ conn.sendMessage(group.gid, "hello everyone", MessageType.extendedText) // say h
 }
 
 // FF A187 ID
-if(text.includes("#cek")){
+if(text.includes("$cek")){
 var num = text.replace(/#cek/ , "")
 var idn = num.replace("0","+62");
 
@@ -329,6 +329,7 @@ axios.get('https://api.banghasan.com/quran/format/json/acak').then((res) => {
     const sr = /{(.*?)}/gi;
     const hs = res.data.acak.id.ayat;
     const ket = `${hs}`.replace(sr, '');
+conn.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
     let hasil = `[${ket}]   ${res.data.acak.ar.teks}\n\n${res.data.acak.id.teks}(QS.${res.data.surat.nama}, Ayat ${ket})`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -616,6 +617,7 @@ const get = require('got')
       axios.get(url)
          .then((result) =>
          {
+conn.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
             let $ = cheerio.load(result.data);
             var author = $('a[class="auteurfbnaam"]').contents().first().text();
             var kata = $('q[class="fbquote"]').contents().first().text();
@@ -640,6 +642,7 @@ _${kata}_
     var req = nama.replace(/ /g,"+");
     request.get({
         headers: {'content-type' : 'application/x-www-form-urlencoded'},
+conn.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
         url:     'http://www.primbon.com/arti_nama.php?nama1='+ req +'&proses=+Submit%21+',
       },function(error, response, body){
           let $ = cheerio.load(body);
@@ -651,11 +654,14 @@ _${kata}_
       console.log(""+ h);
       conn.sendMessage(id,
             `
+      Halo *${id.split("@s.whatsapp.net")[0]}*
       Arti dari namamu adalah
 
-  ***********************************
+  ✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
+
          Nama _*${nama}*_ ${h}
-  ***********************************
+
+  ✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
 
 `,
  MessageType.text);
@@ -668,6 +674,7 @@ _${kata}_
     var pasangan = gh.split("&")[1];
     request.get({
         headers: {'content-type' : 'application/x-www-form-urlencoded'},
+conn.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
         url:     'http://www.primbon.com/kecocokan_nama_pasangan.php?nama1='+ namamu +'&nama2='+ pasangan +'&proses=+Submit%21+',
 
     },function(error, response, body){
@@ -681,15 +688,16 @@ _${kata}_
       console.log(""+ d);
       conn.sendMessage(id, `
 
-************************************
-
+🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱
+Halo *${id.split("@s.whatsapp.net")[0]}*
+      
  *Kecocokan berdasarkan nama*
 
 
  ${d}
 
 
-************************************
+🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱
     `, MessageType.text);
   });
   }
