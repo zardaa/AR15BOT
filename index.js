@@ -249,11 +249,20 @@ if (text.includes("$say")){
 conn.sendMessage(id, teks, MessageType.text)
 }
 
-if (text.includes("$yt")){
-const teks = text.replace(/$yt /, "")
-axios.get(`http://scrap.terhambar.com/yt?link=${teks}').then((res) => {
-	conn.sendMessage(id, '[WAIT] Searching...', MessageType.text)
-    let hasil = `âœ…Lagu Berhasil Di Download, silahkan klik link dan download hasilnya\nKlik link dibawahðŸ—¡ï¸\n\nJudul: ${res.data.title}\n\nduration: ${res.data.inText}\n\nlink audio: ${res.data.linkAudioOnly}\n\nlinkVideo: ${res.data.linkVideo}`;
+if (text.includes("$ytmp3")){
+const teks = text.replace(/$ytmp3 /, "")
+axios.get(`https://alfians-api.herokuapp.com/api/yta?url=${teks}`).then((res) => {
+	conn.sendMessage(id, '[ WAIT ] Sedang di prosesâ³ silahkan tunggu sebentar', MessageType.text)
+    let hasil = `âœ…Lagu Berhasil Di Download, silahkan klik link dan download hasilnya\nKlik link dibawahðŸ—¡ï¸\n\nJudul: ${res.data.title}\n\nUkuran audio: ${res.data.filesize}\n\nLink: ${res.data.result}`;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+
+if (text.includes("$ytmp4")){
+const teks = text.replace(/$ytmp4 /, "")
+axios.get(`https://alfians-api.herokuapp.com/api/ytv?url=${teks}`).then((res) => {
+	conn.sendMessage(id, '[ WAIT ] Sedang di prosesâ³ silahkan tunggu sebentar', MessageType.text)
+    let hasil = `âœ…Video Berhasil Di Download, silahkan klik link dan download hasilnya\nKlik link dibawahðŸ—¡ï¸\n\nJudul: ${res.data.title}\n\nUkuran video: ${res.data.filesize}\n\nLink: ${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
