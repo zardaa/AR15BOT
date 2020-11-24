@@ -102,7 +102,7 @@ conn.sendMessage(group.gid, "hello everyone", MessageType.extendedText) // say h
 }
 
 // FF A187 ID
-if(text.includes("$cek")){
+if(text.includes("#cek")){
 var num = text.replace(/#cek/ , "")
 var idn = num.replace("0","+62");
 
@@ -140,7 +140,7 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '$owner'){
-conn.sendMessage(id, 'Owner AR15BOT wa.me/+6285722553839' ,MessageType.text);
+conn.sendMessage(id, 'Owner AR15BOT wa.me/+6285712632324' ,MessageType.text);
 }
 else if (text == 'Aris'){
 conn.sendMessage(id, 'Aku BOT nya Aris' ,MessageType.text);
@@ -309,7 +309,7 @@ axios.get(`https://st4rz.herokuapp.com/api/ig?url=${teks}`).then((res) => {
 
 if (text.includes("$wiki")){
 const teks = text.replace(/$wiki /, "")
-axios.get(`https://alfians-api.herokuapp.com/api/wiki?q=${teks}`).then((res) => {
+axios.get(`https://st4rz.herokuapp.com/api/wiki?q=${teks}`).then((res) => {
 	conn.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
     let hasil = `📝Menurut Wikipedia:\n\n${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
@@ -318,7 +318,7 @@ axios.get(`https://alfians-api.herokuapp.com/api/wiki?q=${teks}`).then((res) => 
 
 if (text.includes("$sholat")){
   const teks = text.replace(/$sholat /, "")
-  axios.get(`https://alfians-api.herokuapp.com/api/jadwalshalat?daerah=${teks}`).then ((res) =>{
+  axios.get(`https://api.haipbis.xyz/jadwalsholat?daerah=${teks}`).then ((res) =>{
   conn.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
   let hasil = `Jadwal sholat di ${teks} hari ini adalah\n\n⚡Imsyak : ${res.data.Imsyak}\n⚡Subuh : ${res.data.Subuh} WIB\n⚡Dzuhur : ${res.data.Dzuhur}WIB\n⚡Ashar : ${res.data.Ashar} WIB\n⚡Maghrib : ${res.data.Maghrib}\n⚡Isya : ${res.data.Isya} WIB\n⚡Tengah malam : ${res.data.Dhuha} WIB`;
   conn.sendMessage(id, hasil, MessageType.text);
@@ -329,7 +329,6 @@ axios.get('https://api.banghasan.com/quran/format/json/acak').then((res) => {
     const sr = /{(.*?)}/gi;
     const hs = res.data.acak.id.ayat;
     const ket = `${hs}`.replace(sr, '');
-conn.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
     let hasil = `[${ket}]   ${res.data.acak.ar.teks}\n\n${res.data.acak.id.teks}(QS.${res.data.surat.nama}, Ayat ${ket})`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -617,7 +616,6 @@ const get = require('got')
       axios.get(url)
          .then((result) =>
          {
-conn.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
             let $ = cheerio.load(result.data);
             var author = $('a[class="auteurfbnaam"]').contents().first().text();
             var kata = $('q[class="fbquote"]').contents().first().text();
@@ -653,14 +651,11 @@ _${kata}_
       console.log(""+ h);
       conn.sendMessage(id,
             `
-      Halo *${id.split("@s.whatsapp.net")[0]}*
       Arti dari namamu adalah
 
-  ✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
-
+  ***********************************
          Nama _*${nama}*_ ${h}
-
-  ✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
+  ***********************************
 
 `,
  MessageType.text);
@@ -686,16 +681,15 @@ _${kata}_
       console.log(""+ d);
       conn.sendMessage(id, `
 
-🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱
-Halo *${id.split("@s.whatsapp.net")[0]}*
-      
+************************************
+
  *Kecocokan berdasarkan nama*
 
 
  ${d}
 
 
-🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱
+************************************
     `, MessageType.text);
   });
   }
