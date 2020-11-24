@@ -642,7 +642,6 @@ _${kata}_
     var req = nama.replace(/ /g,"+");
     request.get({
         headers: {'content-type' : 'application/x-www-form-urlencoded'},
-conn.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
         url:     'http://www.primbon.com/arti_nama.php?nama1='+ req +'&proses=+Submit%21+',
       },function(error, response, body){
           let $ = cheerio.load(body);
@@ -674,7 +673,6 @@ conn.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', Me
     var pasangan = gh.split("&")[1];
     request.get({
         headers: {'content-type' : 'application/x-www-form-urlencoded'},
-conn.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
         url:     'http://www.primbon.com/kecocokan_nama_pasangan.php?nama1='+ namamu +'&nama2='+ pasangan +'&proses=+Submit%21+',
 
     },function(error, response, body){
