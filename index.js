@@ -327,7 +327,7 @@ axios.get(`http://scrap.terhambar.com/fb?link=${teks}`).then((res) => {
 if (text.includes(".ig")){
 const teks = text.replace(/.ig /, "")
 axios.get(`https://st4rz.herokuapp.com/api/ig?url=${teks}`).then((res) => {
-    let hasil = `Download sendiri melalui link dibawah ya, takut servernya down xixi..\n\nLink: ${res.data.result}`;
+    let hasil = `Dwonload sendiri,link error maaf\n\nLink: ${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
