@@ -2,7 +2,7 @@
 * "Jangan modal nama doang bro!!!"
 * (Scriptnya Aris187 ID).
 */
-const BotName = 'ðŸ¤–AR15BOTðŸ¤–'; // Nama Bot Whatsapp
+const BotName = '👾AR15BOT👾'; // Nama Bot Whatsapp
 const instagramlu = 'https://instagram.com/_sadboy.ig'; // Nama Instagramlu cok
 const whatsapplu = 'Wa.me/+6285722553839'; // Nomor whatsapplu cok
 const kapanbotaktif = 'Tergantung jaringan'; // Kapan bot lu aktif
@@ -53,7 +53,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] AR15BOT redy scan sekarang!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] AR15BOT Ready scan now!`);
 });
 
 conn.on('credentials-updated', () =>
@@ -140,10 +140,10 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '$owner'){
-conn.sendMessage(id, 'Owner AR15BOT wa.me/+6285712632324' ,MessageType.text);
+conn.sendMessage(id, 'Owner AR15BOT wa.me/+6285722553839' ,MessageType.text);
 }
 else if (text == 'Aris'){
-conn.sendMessage(id, 'Aku BOT nya Aris' ,MessageType.text);
+conn.sendMessage(id, 'Aku BOT nya Aris187 ID' ,MessageType.text);
 }
 else if (text == 'Ngentod'){
 conn.sendMessage(id, 'Pengin ngentod?' ,MessageType.text);
@@ -236,7 +236,7 @@ if (text.includes('.nulis')){
       imageToBase64(res.data.result)
         .then(
           (ress) => {
-            conn.sendMessage(id, '[WAIT] Searching...', MessageType.text)
+            conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
             var buf = Buffer.from(ress, 'base64')
             conn.sendMessage(id, buf, MessageType.image)
         })
@@ -252,7 +252,7 @@ conn.sendMessage(id, teks, MessageType.text)
 if (text.includes(".yt")){
 const teks = text.replace(/.yt /, "")
 axios.get(`http://scrap.terhambar.com/yt?link=${teks}`).then((res) => {
-	conn.sendMessage(id, '[WAIT] Searching...', MessageType.text)
+	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
     let hasil = `âœ…Lagu Berhasil Di Download, silahkan klik link dan download hasilnya\nKlik link dibawahðŸ—¡ï¸\n\nJudul: ${res.data.title}\n\nDuration: ${res.data.inText}\n\nAudio: ${res.data.linkAudioOnly}\n\nLink video: ${res.data.linkVideo}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -260,7 +260,7 @@ axios.get(`http://scrap.terhambar.com/yt?link=${teks}`).then((res) => {
 if (text.includes(".twt")){
 const teks = text.replace(/.twt /, "")
 axios.get(`https://mhankbarbar.herokuapp.com/api/twit?url=${teks}&apiKey=zFuV88pxcIiCWuYlwg57`).then((res) => {
-	conn.sendMessage(id, '[WAIT] Searching...', MessageType.text)
+	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
     let hasil = `âœ…Berhasil$ silahkan klik link di bawah untuk mendownload hasilnya$\nKlik link dibawahðŸ—¡ï¸\n\nSize: ${res.data.filesize}\n\nLink: ${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -275,7 +275,7 @@ const gtts = (`https://rest.farzain.com/api/tts.php?id=${teks}&apikey=O8mUD3YrHI
 if (text.includes(".tiktok")) {
 const tictoc = text.replace(/.tiktok /, "")
 axios.get(`http://scrap.terhambar.com/tiktokfull?link=${tictoc}`).then((res) => {
-	 conn.sendMessage(id, '[WAIT] Searching...', MessageType.text)
+	 conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
      let titoe = `âœ…Berhasil$$$ Silahkan klik link dibawah ini untuk mendownload hasilnya$ \nKlik link dibawahðŸ—¡ï¸\n\nJudul: ${res.data.deskripsi} \n\nDurasi: ${res.data.durasi}\n\nNama: ${res.data.nama}\n\nUrl: ${res.data.urlvideo}`;
 conn.sendMessage(id, titoe, MessageType.text);
 })
@@ -300,7 +300,7 @@ axios.get(`https://st4rz.herokuapp.com/api/ig?url=${teks}`).then((res) => {
 if (text.includes(".wiki")){
 const teks = text.replace(/.wiki /, "")
 axios.get(`https://alfians-api.herokuapp.com/api/wiki?q=${teks}`).then((res) => {
-	conn.sendMessage(id, '[WAIT] Searching...', MessageType.text)
+	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
     let hasil = `ðŸ“Menurut Wikipedia:\n\n${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -309,7 +309,7 @@ axios.get(`https://alfians-api.herokuapp.com/api/wiki?q=${teks}`).then((res) => 
 if (text.includes(".sholat")){
   const teks = text.replace(/.sholat /, "")
   axios.get(`https://api.haipbis.xyz/jadwalsholat?daerah=${teks}`).then ((res) =>{
-  conn.sendMessage(id, '[WAIT] Searching...', MessageType.text)
+  conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
   let hasil = `Jadwal sholat di ${teks} hari ini adalah\n\nâš¡Imsyak : ${res.data.Imsyak}\nâš¡Subuh : ${res.data.Subuh} WIB\nâš¡Dzuhur : ${res.data.Dzuhur}WIB\nâš¡Ashar : ${res.data.Ashar} WIB\nâš¡Maghrib : ${res.data.Maghrib}\nâš¡Isya : ${res.data.Isya} WIB\nâš¡Tengah malam : ${res.data.Dhuha} WIB`;
   conn.sendMessage(id, hasil, MessageType.text);
 })
@@ -326,12 +326,12 @@ axios.get('https://api.banghasan.com/quran/format/json/acak').then((res) => {
 if (text.includes(".namaninja")){
 const teks = text.replace(/.namaninja /, "")
 axios.get(`https://api.terhambar.com/ninja?nama=${teks}`).then((res) => {
-	conn.sendMessage(id, '[WAIT] Searching...', MessageType.text)
-    let hasil = `Nama Ninja kamu:\n\n${res.data.result}`;
+	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+    let hasil = `Nama Ninja kamu🙂:\n\n${res.message.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
-if (text == '#menu'){
+if (text == '#help'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
 var date = new Date();
 var tahun = date.getFullYear();
@@ -606,7 +606,7 @@ const get = require('got')
     var meninggal = (body[0]['meninggal']);
     var dirawat = (body[0]['dirawat']);
     console.log(body[0]['name'])
-    conn.sendMessage(id,`ðŸ—‚ï¸DATA WABAH COVID-19 TERBARU DI INDONESIA\n\nðŸ“ˆPositif ==> ${positif} \nðŸ“‰Sembuh ==> ${sembuh} \nðŸ“‹Meninggal ==> ${meninggal}\nðŸ—’ï¸Dirawat ==> ${dirawat}`, MessageType.text);
+    conn.sendMessage(id,`🔎DATA WABAH COVID-19 TERBARU DI INDONESIA🔍\n\n📈Positif ==> ${positif} \n📉Sembuh ==> ${sembuh} \n📋Meninggal ==> ${meninggal}\n🗒️Dirawat ==> ${dirawat}`, MessageType.text);
 }
    if (text.includes(".quotes"))
    {
@@ -720,7 +720,7 @@ if (text.includes(".pokemon"))
     });
     }
 
-   else if (text.includes(".nama ")) 
+   else if (text.includes(".nama")) 
   {
     const cheerio = require('cheerio');
     const request = require('request');
@@ -796,7 +796,7 @@ if (text.includes(".pokemon"))
         imageToBase64(cewek) // Path to the image
         .then(
             (response) => {
-    conn.sendMessage(id, '[WAIT] Searching...', MessageType.text)
+    conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
 	var buf = Buffer.from(response, 'base64'); // Ta-da	
               conn.sendMessage(
             id,
@@ -826,7 +826,7 @@ if (text.includes(".pokemon"))
         imageToBase64(cowok) 
         .then(
             (response) => {
-  conn.sendMessage(id, '[WAIT] Searching...', MessageType.text)
+  conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
   var buf = Buffer.from(response, 'base64'); 
               conn.sendMessage(
             id,
@@ -856,7 +856,7 @@ if (text.includes(".fotoanime"))
         imageToBase64(nimek) 
         .then(
             (response) => {
-    conn.sendMessage(id, '[WAIT] Searching...', MessageType.text)
+    conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
 	var buf = Buffer.from(response, 'base64'); 
               conn.sendMessage(
             id,
@@ -876,8 +876,8 @@ if (text.includes(".fotoanime"))
 if (text.includes(".lirik")){
 	const teks = text.split(".lirik")[1]
 	axios.get(`http://scrap.terhambar.com/lirik?word=${teks}`).then ((res) => {
-	     conn.sendMessage(id, '[WAIT] Searching...', MessageType.text)
-	 	let hasil = `ðŸŽµlirik laguðŸŽµ${teks} \n\n\n ${res.data.result.lirik}`
+	     conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+	 	let hasil = `🎶lirik🎶 lagu ${teks} \n\n\n ${res.data.result.lirik}`
 	conn.sendMessage(id, hasil, MessageType.text)
 	})
 }
