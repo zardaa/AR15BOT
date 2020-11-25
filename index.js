@@ -139,7 +139,7 @@ conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.
 else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
-else if (text == '$owner'){
+else if (text == '.owner'){
 conn.sendMessage(id, 'Owner AR15BOT wa.me/+6285722553839' ,MessageType.text);
 }
 else if (text == 'Aris'){
