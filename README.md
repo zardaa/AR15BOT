@@ -55,7 +55,7 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 |       ✅       | Wikipedia                        |
 |       ✅       | Say                              |
 |       ✅       | Toxic (new)                      |
-|       ✅       | loli.                            |
+|       ✅       | loli                             |
 |       ✅       | hentai                           |
 |       ✅       | Owner (new)                      |
 |       ✅       | kata bijak                       |
@@ -63,6 +63,8 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 |       ✅       | Pokemon                          |
 |       ✅       | Info                             |
 |       ✅       | Donate                           |
+|                   MORE                           |
+
 Ket: Aktiv 24 jam
 
 ## Note
