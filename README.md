@@ -1,4 +1,4 @@
-# 🤖AR15BOT🤖
+# 👾AR15BOT👾
 BOT WHATSAPP TERMUX ONLY BY ARIS187 ID
 
 ### Alat dan Bahan
@@ -69,6 +69,10 @@ Ket: Aktiv 24 jam
 
 ## Note
 BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA (ARIS187 ID)
+
+## WARNING
+Jangan ubah ubah info, Hargai Karya orang lain bro
+jangan cuman modal nama doang
 
 ## Sosial Media Admin
 * [`Youtube Admin`](https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg)
