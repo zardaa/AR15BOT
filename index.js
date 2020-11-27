@@ -1,7 +1,8 @@
 /*
 * "Jangan modal nama doang bro!!!"
 * (Scriptnya Aris187 ID).
-*Dilarang ubah INFO!!!/
+*Dilarang ubah INFO!!!
+*/
 const A187 = '👾AR15BOT👾'; // hmzz modal nama ajah bangga 
 const instagram = 'https://instagram.com/_sadboy.ig'; // hargai credits dong bos
 const nomer = 'Wa.me/+6285722553839'; // cape cape buat script ehh elunya modal nama doang
