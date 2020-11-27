@@ -144,9 +144,6 @@ conn.sendMessage(id, ' _Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#
 else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
-else if (text == '#menu'){
-conn.sendMessage(id, ' *Menampilkan menu* ' ,MessageType.text);
-}
 else if (text == '#owner'){
 conn.sendMessage(id, ' *Owner AR15BOT wa.me/+6285722553839* ' ,MessageType.text);
 }
