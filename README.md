@@ -83,4 +83,4 @@ jangan cuman modal nama doang
 
 * [`ArugaZ`](https://github.com/ArugaZ/whatsapp-bot)
 * [`MhankBarBar`](https://github.com/MhankBarBar/whatsapp-bot)
-* [`Alfbot`](https://github.com/A187ID/alfbot)
+* [`Alfbot`](https://github.com/alfiansx/alfbot)
