@@ -82,4 +82,4 @@ jangan cuman modal nama doang
 * [`fdciabdul`](https://github.com/fdciabdul/termux-whatsapp-bot)
 
 * [`ArugaZ`](https://github.com/A187ID/whatsapp-bot-1)
-* [`ArugaZ`](https://github.com/MhankBarBar/whatsapp-bot)
+* [`MhankBarBar`](https://github.com/MhankBarBar/whatsapp-bot)
