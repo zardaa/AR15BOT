@@ -11,7 +11,7 @@
 const A187 = '👾AR15BOT👾'; // JANGAN UBAH-UBAH INFO!!!
 const instagram = 'https://instagram.com/_sadboy.ig'; // JANGAN UBAH-UBAH INFO!!!
 const nomer = 'Wa.me/+6285722553839'; // JANGAN UBAH-UBAH INFO!!!
-const aktif = 'Tergantung jaringan'; // JANGAN UBAH-UBAH INFO!!!
+const aktif = '24 JAM'; // JANGAN UBAH-UBAH INFO!!!
 const groupwhatsapp = 'https://chat.whatsapp.com/GU6NsgZvfgw37vrjIxUPhP'; // JANGAN UBAH-UBAH INFO!!!
 const youtube = 'https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg'; // JANGAN UBAH-UBAH INFO!!!
 //A187ID
@@ -32,6 +32,8 @@ const aris1 = require("./lib/aris1.js");
 const aris2 = require("./lib/aris2.js");
 const aris3 = require("./lib/aris3.js");
 const aris4 = require("./lib/aris4.js");
+const readTextInImage = require('./lib/ocr')
+
 //A187ID
 const
 {
