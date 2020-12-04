@@ -1,4 +1,7 @@
 <p align="center">
+<img src="https://drive.google.com/file/d/1_v0UWcV7LKRjjIkB9VWYXa9fIVUlh5Tc/view?usp=drivesdk" width="128" height="128"/>
+</p>
+<p align="center">
 <a href="#"><img title="👾AR15BOT👾" src="https://img.shields.io/badge/AR15BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
