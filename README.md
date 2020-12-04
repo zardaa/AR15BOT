@@ -25,7 +25,12 @@
  
 </details>
 
-ini semua gratis, jangan pelit ⭐️ ya :D
+WARNING:
+MAU RE-UPLOAD SCRIPT? KASIH NAMA/LINK CHANEL SAYA.... DILARANG UBAH INFO!!!
+
+NOTE: 
+SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% GRATIS BUAT KALIAN PENGGUNA TERMUX
+
 <p align="center"><a href="https://arugaz.herokuapp.com/" target="_blank">My Rest APIs</a>.</p>
 <p align="center"><a href="https://wa.me/447451244769?text=%23menu" target="_blank">My Whatsapp BOT</a>.</p>
 </div>
