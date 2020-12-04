@@ -19,16 +19,13 @@
 </p>
 <div align="center">
 <details>
- <summary>🥟 Help me!</summary>
- 
- [Trakteer](https://trakteer.id/aris187id)
  
 </details>
 
-WARNING:
+</summary> WARNING:</summary>
 MAU RE-UPLOAD SCRIPT? KASIH NAMA/LINK CHANEL SAYA.... DILARANG UBAH INFO!!!
 
-NOTE: 
+</summary>NOTE:</summary>
 SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% GRATIS BUAT KALIAN PENGGUNA TERMUX
 
 <p align="center"><a href="https://trakteer.id/aris187id" target="_blank">Donasi APIs</a>.</p>
