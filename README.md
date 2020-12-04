@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/A187ID/AR15BOT/main/temp/A187.jpg" width="500" height="500"/>
+<img src="https://raw.githubusercontent.com/A187ID/AR15BOT/main/temp/A187.jpg" width="230" height="230"/>
 </p>
 <p align="center">
 <a href="#"><img title="👾AR15BOT👾" src="https://img.shields.io/badge/AR15BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
@@ -8,7 +8,7 @@
 <a href="https://github.com/A187ID"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ARIS187 ID-orange.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://www.codefactor.io/repository/github/A187ID/AR15BOT"><img title="Rating" src="https://www.codefactor.io/repository/github/A187ID/AR15BOT/badge/master"></a>
+<a href="https://www.codefactor.io/repository/github/A187ID/AR15BOT"><img title="Rating" src="https://www.codefactor.io/repository/github/A187ID/AR15BOT/badge/main"></a>
 </p>
 <p align="center">
 <a href="https://github.com/A187ID/AR15BOT/followers"><img title="Followers" src="https://img.shields.io/github/followers/A187ID?color=blue&style=flat-square"></a>
@@ -91,7 +91,8 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 |       ✅       | Pokemon                          |
 |       ✅       | Info                             |
 |       ✅       | Donate                           |
-|                   MORE                           |
+|       ✅       | 18+.                             |
+|                   MORE  Fitur                     |
 
 Ket: Aktiv 24 jam
 
