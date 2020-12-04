@@ -47,7 +47,7 @@ Siapin alat dan bahannya.
 > kopi+rokok ;v
 ```
 
-### CARA INSTALLNYA
+### CARA INSTALLNYA  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="29px">
 Script ini di modifikasi sama saya sendiri Aris187 ID.
 ```bash
 > kalo lu belum punya apk termux, download di playstore
@@ -102,7 +102,7 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 
 Ket: Aktiv 24 jam
 
-## Donasi <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
+## DONASI <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
 * [`Donasi 👾AR15BOT👾`](https://saweria.co/aris187id)
 
 
