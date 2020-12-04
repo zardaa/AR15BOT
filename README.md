@@ -2,19 +2,19 @@
 <img src="https://avatars2.githubusercontent.com/u/53950128?s=460&u=09f530e3326f710c4e0f9106f094eeea5429f86d&v=4" width="128" height="128"/>
 </p>
 <p align="center">
-<a href="#"><img title="👾AR15BOT👾" src="https://img.shields.io/badge/Whatsapp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="👾AR15BOT👾" src="https://img.shields.io/badge/AR15BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/A187ID"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ARUGAZ-orange.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/A187ID"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ARIS187ID-orange.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://www.codefactor.io/repository/github/arugaz/whatsapp-bot/overview/master"><img title="Rating" src="https://www.codefactor.io/repository/github/arugaz/whatsapp-bot/badge/master"></a>
+<a href="https://www.codefactor.io/repository/github/A187ID/AR15BOT/overview/master"><img title="Rating" src="https://www.codefactor.io/repository/github/A187ID/AR15BOT/badge/master"></a>
 </p>
 <p align="center">
-<a href="https://github.com/A187ID/AR15BOT/followers"><img title="Followers" src="https://img.shields.io/github/followers/arugaz?color=blue&style=flat-square"></a>
-<a href="https://github.com/A187ID/AR15BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/arugaz/whatsapp-bot?color=red&style=flat-square"></a>
-<a href="https://github.com/A187ID/AR15BOT/network/members"><img title="Forks" src="https://img.shields.io/github/forks/arugaz/whatsapp-bot?color=red&style=flat-square"></a>
-<a href="https://github.com/A187ID/AR15BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/arugaz/whatsapp-bot?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/A187ID/AR15BOT/followers"><img title="Followers" src="https://img.shields.io/github/followers/A187ID?color=blue&style=flat-square"></a>
+<a href="https://github.com/A187ID/AR15BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/A187ID/AR15BOT?color=red&style=flat-square"></a>
+<a href="https://github.com/A187ID/AR15BOT/network/members"><img title="Forks" src="https://img.shields.io/github/forks/A187ID/AR15BOT?color=red&style=flat-square"></a>
+<a href="https://github.com/A187ID/AR15BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/A187ID/AR15BOT?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FArugaZ%2Fwhatsapp-bot&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
 </p>
 <div align="center">
@@ -29,7 +29,6 @@ ini semua gratis, jangan pelit ⭐️ ya :D
 <p align="center"><a href="https://arugaz.herokuapp.com/" target="_blank">My Rest APIs</a>.</p>
 <p align="center"><a href="https://wa.me/447451244769?text=%23menu" target="_blank">My Whatsapp BOT</a>.</p>
 </div>
-
 # 👾AR15BOT👾
 BOT WHATSAPP TERMUX ONLY BY ARIS187 ID
 
