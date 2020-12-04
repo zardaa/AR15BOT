@@ -4,18 +4,6 @@
 </p>
 <br>
 
-<a href="https://github.com/A187ID">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=A187ID&theme=dark&hide_langs_below=1" />
-</a>
-
-<a href="https://github.com/A187ID">
- <img align="center" src="https://github-readme-stats.vercel.app/api?username=A187ID&show_icons=true&theme=dark&line_height=27" alt="Shubhamdeep's github stats"/>
-</a>
-
-
-<a href="https://github.com/A187ID/AR15BOT">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=A187ID&repo=AR15BOT&theme=dark" />
-</a>
 
 
 <p align="center">
