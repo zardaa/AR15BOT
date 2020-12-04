@@ -34,7 +34,8 @@ SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% GRATIS BUAT KALIAN PENGGUNA 
 <p align="center"><a href="https://arugaz.herokuapp.com/" target="_blank">My Rest APIs</a>.</p>
 <p align="center"><a href="https://wa.me/447451244769?text=%23menu" target="_blank">My Whatsapp BOT</a>.</p>
 </div>
-## Alat Dan Bahan
+
+### Alat Dan Bahan
 Siapin alat dan bahannya.
 ```bash
 > niat
