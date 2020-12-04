@@ -28,10 +28,6 @@ MAU RE-UPLOAD SCRIPT? KASIH NAMA/LINK CHANEL SAYA.... DILARANG UBAH INFO!!!
 ## NOTE:> 
 SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% GRATIS BUAT KALIAN PENGGUNA TERMUX
 
-<p align="center"><a href="https://trakteer.id/aris187id" target="_blank">Donasi APIs</a>.</p>
-<p align="center"><a href="https://wa.me/+6285722553839" target="_blank">My Whatsapp</a>.</p>
-</div>
-
 ### Alat Dan Bahan
 Siapin alat dan bahannya.
 ```bash
@@ -98,12 +94,9 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 
 Ket: Aktiv 24 jam
 
-## Note
-BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA (ARIS187 ID)
+## Donasi
+* [`Donasi 👾AR15BOT👾`](https://saweria.co/aris187id)
 
-## WARNING
-Jangan ubah ubah info, Hargai Karya orang lain bro
-jangan cuman modal nama doang
 
 ## Sosial Media Admin
 * [`Youtube Admin`](https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg)
