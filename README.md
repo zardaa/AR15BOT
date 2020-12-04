@@ -102,7 +102,7 @@ Ket: Aktiv 24 jam
 * [`Donasi 👾AR15BOT👾`](https://saweria.co/aris187id)
 
 
-## Sosial Media Admin <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/happy.gif" width="29px">
+## Sosial Media Admin <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="29px">
 
 * [`Youtube Admin`](https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg)
 * [`Instagram Admin`](https://instagram.com/_sadboy.ig)
