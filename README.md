@@ -22,10 +22,10 @@
  
 </details>
 
-</summary> WARNING:</summary>
+</summary> WARNING:
 MAU RE-UPLOAD SCRIPT? KASIH NAMA/LINK CHANEL SAYA.... DILARANG UBAH INFO!!!
 
-</summary>NOTE:</summary>
+</summary> NOTE:
 SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% GRATIS BUAT KALIAN PENGGUNA TERMUX
 
 <p align="center"><a href="https://trakteer.id/aris187id" target="_blank">Donasi APIs</a>.</p>
