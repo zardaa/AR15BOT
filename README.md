@@ -57,7 +57,7 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 > Tinggal scan kode qr yeee...done
 ```
 
-## Features
+## Features  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="29px">
 
 | AR15BOT      |                   Feature        |
 | :-----------: | :------------------------------: |
@@ -98,15 +98,17 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 
 Ket: Aktiv 24 jam
 
-## Donasi
+## Donasi <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
 * [`Donasi 👾AR15BOT👾`](https://saweria.co/aris187id)
 
 
-## Sosial Media Admin
+## Sosial Media Admin <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/happy.gif" width="29px">
+
 * [`Youtube Admin`](https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg)
 * [`Instagram Admin`](https://instagram.com/_sadboy.ig)
 * [`WhatsApp Admin `](https://wa.me/+6285722553839)
-## THANKS TO
+## THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/wave.gif" width="29px">
+
 * [`fdciabdul`](https://github.com/fdciabdul/termux-whatsapp-bot)
 
 * [`ArugaZ`](https://github.com/ArugaZ/whatsapp-bot)
