@@ -31,7 +31,7 @@ MAU RE-UPLOAD SCRIPT? KASIH NAMA/LINK CHANEL SAYA.... DILARANG UBAH INFO!!!
 SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% GRATIS BUAT KALIAN PENGGUNA TERMUX
 </div>
 
-### Alat Dan Bahan <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" width="29px">
+### ALAT DAN BAHAN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" width="29px">
 Siapin alat dan bahannya.
 ```bash
 > niat
@@ -43,7 +43,7 @@ Siapin alat dan bahannya.
 > kopi+rokok ;v
 ```
 
-### Cara Installnya
+### CARA INSTALLNYA
 Script ini di modifikasi sama saya sendiri Aris187 ID.
 ```bash
 > kalo lu belum punya apk termux, download di playstore
@@ -57,7 +57,7 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 > Tinggal scan kode qr yeee...done
 ```
 
-## Features  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="29px">
+## FEATURES  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="29px">
 
 | AR15BOT      |                   Feature        |
 | :-----------: | :------------------------------: |
@@ -102,12 +102,12 @@ Ket: Aktiv 24 jam
 * [`Donasi 👾AR15BOT👾`](https://saweria.co/aris187id)
 
 
-## Sosial Media Admin <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="29px">
+## SOSIAL MEDIA ADMIN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="29px">
 
 * [`Youtube Admin`](https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg)
 * [`Instagram Admin`](https://instagram.com/_sadboy.ig)
 * [`WhatsApp Admin `](https://wa.me/+6285722553839)
-## THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="100px">
+## THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="60px">
 
 * [`fdciabdul`](https://github.com/fdciabdul/termux-whatsapp-bot)
 
