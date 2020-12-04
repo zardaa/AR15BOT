@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://ibb.co/pwqDB7W" width="128" height="128"/>
+<img src="https://raw.githubusercontent.com/A187ID/AR15BOT/master/media/img/Kaguya.png" width="128" height="128"/>
 </p>
 <p align="center">
 <a href="#"><img title="👾AR15BOT👾" src="https://img.shields.io/badge/AR15BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
