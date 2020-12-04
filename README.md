@@ -5,7 +5,7 @@
 <a href="#"><img title="👾AR15BOT👾" src="https://img.shields.io/badge/AR15BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/A187ID"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ARIS187ID-orange.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/A187ID"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ARIS187 ID-orange.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://www.codefactor.io/repository/github/A187ID/AR15BOT/overview/master"><img title="Rating" src="https://www.codefactor.io/repository/github/A187ID/AR15BOT/badge/master"></a>
@@ -21,7 +21,7 @@
 <details>
  <summary>🥟 Help me!</summary>
  
- [Trakteer](https://trakteer.id/arugabot)
+ [Trakteer](https://trakteer.id/aris187id)
  
 </details>
 
@@ -34,10 +34,7 @@ SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% GRATIS BUAT KALIAN PENGGUNA 
 <p align="center"><a href="https://arugaz.herokuapp.com/" target="_blank">My Rest APIs</a>.</p>
 <p align="center"><a href="https://wa.me/447451244769?text=%23menu" target="_blank">My Whatsapp BOT</a>.</p>
 </div>
-# 👾AR15BOT👾
-BOT WHATSAPP TERMUX ONLY BY ARIS187 ID
-
-### Alat dan Bahan
+AAlayan Bahan
 Siapin alat dan bahannya.
 ```bash
 > niat
