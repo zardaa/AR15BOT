@@ -8,7 +8,7 @@
 <a href="https://github.com/A187ID"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ARIS187 ID-orange.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://www.codefactor.io/repository/github/A187ID/AR15BOT/overview/master"><img title="Rating" src="https://www.codefactor.io/repository/github/A187ID/AR15BOT/badge/master"></a>
+<a href="https://www.codefactor.io/repository/github/a187id/ar15bot"><img title="Rating" src="https://www.codefactor.io/repository/github/A187ID/AR15BOT/badge/master"></a>
 </p>
 <p align="center">
 <a href="https://github.com/A187ID/AR15BOT/followers"><img title="Followers" src="https://img.shields.io/github/followers/A187ID?color=blue&style=flat-square"></a>
