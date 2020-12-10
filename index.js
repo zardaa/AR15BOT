@@ -772,7 +772,7 @@ gtts.save(filepath, suara, function() {
 const buffer = fs.readFileSync(filepath)
 	conn.sendMessage(id , buffer , MessageType.audio);
 
-};
+})
 }
 if (text.includes("!infoanime")){
 const aris = text.replace(/!infoanime /, "")
