@@ -494,7 +494,7 @@ conn.sendMessage(id, teks, MessageType.text)
 
 if (text.includes('!ttp')){
   var aris = text.replace(/!ttp /, '')
-    axios.get('https://st4rz.herokuapp.com/api/ttp?kata=${aris})
+    axios.get('https://st4rz.herokuapp.com/api/ttp?kata=${aris}`)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
