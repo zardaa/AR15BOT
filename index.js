@@ -769,12 +769,6 @@ axios.get(`http://scrap.terhambar.com/tts?kata=${aris}`).then((res) => {
 gtts.save(filepath, suara, function() {
   console.log(`${filepath} MP3 SAVED=`)
 });
-await new Promise(resolve => setTimeout(resolve, 500));
-
-	if(suara.length > 200){ // check longness of text, because otherways google translate will give me a empty file
-  conn.sendMessage("Text kepanjangan bro!")
-}else{
-
 const buffer = fs.readFileSync(filepath)
 	conn.sendMessage(id , buffer , MessageType.audio);
 
