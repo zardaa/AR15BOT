@@ -608,8 +608,8 @@ axios.get(`https://api.haipbis.xyz/jadwaltvnow`).then((res) => {
     conn.sendMessage(id, hasil ,MessageType.text);
   })
  }
- if (text.includes("*")){
-const aris = text.replace(/* /, "")
+ if (text.includes("#")){
+const aris = text.replace(/# /, "")
 axios.get(`https://st4rz.herokuapp.com/api/simsimi?kata=${aris}`).then((res) => {
     let hasil = `${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
