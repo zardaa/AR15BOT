@@ -31,9 +31,9 @@
     "type": "git",
     "url": "git+https://github.com/A187ID/AR15BOT.git"
   },
-  "keywords": {
+  "keywords": [
     "k"
-  },
+  ],
   "author": "Abdul Muttaqin",
   "license": "ISC",
   "bugs": {
