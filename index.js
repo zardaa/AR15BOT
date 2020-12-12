@@ -533,7 +533,7 @@ case 'spamgmail':
                    console.log(err)
                })
            break
-case 'gay:
+case 'gay':
            gay()
                .then(data => {
                    const { desc, persen } = data
@@ -682,7 +682,7 @@ case 'filmanime':
                    console.log(err)
                })
            break
-           case 'mp3':
+           case 'ytmp3':
            mp3()
                .then(buffer => {
                    client.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
