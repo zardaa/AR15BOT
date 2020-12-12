@@ -23,11 +23,13 @@ const config = {
     instagram: 'https://instagram.com/_sadboy.ig',
     nomer: 'wa.me/6285722553839',
     aktif: '24 JAM',
+    youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg',
+    whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
 
-const { A187, tanggal, waktu, instagram, nomer, aktif: ontime } = config
+const { A187, tanggal, waktu, instagram, whatsapp, youtube,nomer, aktif: ontime } = config
 
 const
 {
@@ -50,6 +52,7 @@ const {
     alay,
     artinama,
     corona,
+    kbbi,
     downloadImage,
     igStalk,
     jodoh,
@@ -77,7 +80,8 @@ const {
     cektanggal,
     chord,
     zodiak,
-    $,
+    fb,
+    !,
     wikien,
     spamsms,
     spamcall,
@@ -89,6 +93,7 @@ const {
     ssweb,
     infogempa,
     indohot,
+    loli,
     ttp,
     map,
     waifu
@@ -141,13 +146,13 @@ client.on('message-new', async (m) => {
 
    switch (prefix) {
        case 'menu':
-           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, instagram,aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, whatsapp, youtube, instagram,aktif, nomer, ontime), MessageType.text)
            break
        case 'info':
-           client.sendMessage(id, info.info(id, A187, tanggal, waktu, instagram,aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, info.info(id, A187, tanggal, waktu,whatsapp, youtube, instagram,aktif, nomer, ontime), MessageType.text)
            break
        case 'donate':
-           client.sendMessage(id, donate.donate(id, A187, tanggal, waktu, instagram,aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, donate.donate(id, A187, tanggal, waktu, whatsapp, youtube,instagram,aktif, nomer, ontime), MessageType.text)
            break
        case 'nulis':
            nulis(value)
@@ -351,6 +356,17 @@ client.on('message-new', async (m) => {
                    console.log(err)
                })
            break
+   case 'fb':
+           fb(value)
+               .then(data => {
+                   const { resultHD, resultSD } = data
+                   let hasil = `Pilih resolusi nya sayang😙 \n\n\n HD ${resultHD} \n\n\n SD ${resultSD}`
+                   client.sendMessage(id, hasil, MessageType.text)
+               })
+               .catch(err => {
+                   console.log(err)
+               })
+           break       
        case 'alay':
            alay(value)
                .then(data => {
@@ -444,7 +460,18 @@ case 'puisi2':
                .catch(err => {
                    console.log(err)
                })
-           break
+   case 'kbbi':
+           kbbi(value)
+               .then(data => {
+                   const { result } = data
+                   let hasil = `*${value}* menurut KBBI ️\n\n  _${result}_ `
+                   client.sendMessage(id, hasil, MessageType.text)
+               })
+               .catch(err => {
+                   console.log(err)
+               })
+           break        break
+           
            case 'zodiak':
  zodiak(value)
                .then(data => {
@@ -456,8 +483,8 @@ case 'puisi2':
                    console.log(err)
                })
            break
-  case '$':
-            $()
+  case '!':
+            !()
                .then(data => {
                    const { result } = data
                    let hasil = ` ${result} `
@@ -560,7 +587,7 @@ case 'filmanime':
                .then(data => {
                    const { title, rating, sinopis, video } = data
                    let hasil = `*Film Anime ${value} :* \n\n *Judul* _${title}_ \n\n *Rating* _${rating}_ \n\n *Info* _${sinopsis}_ \n\n *Link Video* _${video}_  `
-                   client.sendMessage(id, hasil, MessageType.text)
+                   client.sendMessage(id, hasil, MessageType.txext)
                })
                .catch(err => {
                    console.log(err)
@@ -570,7 +597,7 @@ case 'filmanime':
            resep(value)
                .then(data => {
                    const { title, user,  datePublished, dificulty, times, serving, bahan, tutor } = data
-                   let hasil = `*Judul:* ${title}\n*Penulis:* ${user}\n*Rilis:* ${datePublished}\n*Level:* ${dificulty}\n*Waktu:* ${times}\n*Porsi:* ${servings}\n\n*Bahan-bahan:*\n${bahan}\n\n*Step-by-step:*\n ${tutor} `
+                   let hasil = `*Judul:* ${title}\n*Penulis:* ${user}\n*Rilis:* ${datePublished}\n*Level:* ${dificulty}\n*Waktu:* ${times}\n*Porsi:* ${servings}\n\n*Bahan-bahan:*\n${ingredient}\n\n*Step-by-step:*\n ${step} `
                    client.sendMessage(id, hasil, MessageType.text)
                })
                .catch(err => {
@@ -652,6 +679,16 @@ case 'filmanime':
                    console.log(err)
                })
            break
+      case 'loli':
+           loli()
+               .then(buffer => {
+                   client.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
+                   client.sendMessage(id, buffer, MessageType.image)
+               })
+               .catch(err => {
+                   console.log(err)
+               })
+           break     
            case 'ssweb':
            ssweb()
                .then(buffer => {
@@ -662,6 +699,16 @@ case 'filmanime':
                    console.log(err)
                })
            break
+     case 'cooltext':
+           cooltext()
+               .then(buffer => {
+                   client.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
+                   client.sendMessage(id, buffer, MessageType.image)
+               })
+               .catch(err => {
+                   console.log(err)
+               })
+           break      
            case 'ttp':
            ttp()
                .then(buffer => {
@@ -692,6 +739,76 @@ case 'filmanime':
                    console.log(err)
                })
            break
+          case '!creator':
+            client.sendContact(from, '6285722553839@c.us')
+            break
+      case 'tts':
+            if (args.length === 1) return client.reply(from, 'Kirim perintah *!tts [id, en, jp, ar] [teks]*, contoh *!tts id halo semua*')
+            const ttsId = require('node-gtts')('id')
+            const ttsEn = require('node-gtts')('en')
+	    const ttsJp = require('node-gtts')('ja')
+            const ttsAr = require('node-gtts')('ar')
+            const dataText = body.slice(8)
+            if (dataText === '') return client.reply(from, 'Baka?', id)
+            if (dataText.length > 500) return client.reply(from, 'Teks terlalu panjang!', id)
+            var dataBhs = body.slice(5, 7)
+	        if (dataBhs == 'id') {
+                ttsId.save('./media/tts/resId.mp3', dataText, function () {
+                    client.sendPtt(from, './media/tts/resId.mp3', id)
+                })
+            } else if (dataBhs == 'en') {
+                ttsEn.save('./media/tts/resEn.mp3', dataText, function () {
+                    client.sendPtt(from, './media/tts/resEn.mp3', id)
+                })
+            } else if (dataBhs == 'jp') {
+                ttsJp.save('./media/tts/resJp.mp3', dataText, function () {
+                    client.sendPtt(from, './media/tts/resJp.mp3', id)
+                })
+	    } else if (dataBhs == 'ar') {
+                ttsAr.save('./media/tts/resAr.mp3', dataText, function () {
+                    client.sendPtt(from, './media/tts/resAr.mp3', id)
+                })
+            } else {
+                client.reply(from, 'Masukkan data bahasa : [id] untuk indonesia, [en] untuk inggris, [jp] untuk jepang, dan [ar] untuk arab', id)
+            }
+            break     
+      case 'stickergif':
+            if (isMedia) {
+                if (mimetype === 'video/mp4' && message.duration < 10 || mimetype === 'image/gif' && message.duration < 10) {
+                    const mediaData = await decryptMedia(message, uaOverride)
+                    client.reply(from, '[WAIT] Sedang di proses⏳ silahkan tunggu ± 1 min!', id)
+                    const filename = `./media/aswu.${mimetype.split('/')[1]}`
+                    await fs.writeFileSync(filename, mediaData)
+                    await exec(`gify ${filename} ./media/output.gif --fps=30 --scale=240:240`, async function (error, stdout, stderr) {
+                        const gif = await fs.readFileSync('./media/output.gif', { encoding: "base64" })
+                        await client.sendImageAsSticker(from, `data:image/gif;base64,${gif.toString('base64')}`)
+                    })
+                } else (
+                    client.reply(from, '[❗] Kirim video dengan caption *!stickerGif* max 10 sec!', id)
+                )
+            }
+            break     
+     case 'sticker':
+            if (isMedia && type === 'image') {
+                const mediaData = await decryptMedia(message, uaOverride)
+                const imageBase64 = `data:${mimetype};base64,${mediaData.toString('base64')}`
+                await client.sendImageAsSticker(from, imageBase64)
+            } else if (quotedMsg && quotedMsg.type == 'image') {
+                const mediaData = await decryptMedia(quotedMsg, uaOverride)
+                const imageBase64 = `data:${quotedMsg.mimetype};base64,${mediaData.toString('base64')}`
+                await client.sendImageAsSticker(from, imageBase64)
+            } else if (args.length === 2) {
+                const url = args[1]
+                if (url.match(isUrl)) {
+                    await client.sendStickerfromUrl(from, url, { method: 'get' })
+                        .catch(err => console.log('Caught exception: ', err))
+                } else {
+                    client.reply(from, mess.error.Iv, id)
+                }
+            } else {
+                    client.reply(from, mess.error.St, id)
+            }
+            break       
        default:
            break
    }
