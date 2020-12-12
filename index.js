@@ -133,7 +133,7 @@ client.on('message-new', async (m) => {
    const text = m.message.conversation
    const messageType = Object.keys(messageContent)[0]
 
-   const re = /[\#\!\@\.]/
+   const re = /[\#\!\@\/\?\%\$\.]/
 
    const value = text.split(' ').splice(1).join(' ')
 
@@ -483,8 +483,8 @@ case 'puisi2':
                    console.log(err)
                })
            break
-  case '!':
-            !()
+  case 'simi':
+            simi(value)
                .then(data => {
                    const { result } = data
                    let hasil = ` ${result} `
