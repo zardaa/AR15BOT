@@ -29,7 +29,7 @@ const config = {
     waktu: time
 }
 
-const { A187, tanggal, waktu, instagram, whatsapp, youtube,nomer, aktif: ontime } = config
+const { A187, tanggal, waktu, instagram, whatsapp, youtube, nomer, aktif: ontime } = config
 
 const
 {
@@ -145,15 +145,24 @@ client.on('message-new', async (m) => {
    console.log(`[ ${time} ] => Nomor: [ ${id.split("@s.whatsapp.net")[0]} ] => ${text}`);
 
    switch (prefix) {
-       case 'menu':
+       case 'help':
+           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           break
+       case 'menu1':
+           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           break
+       case 'menu2':
+           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           break
+       case 'menu3':
+           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           break
+      case 'donate':
+           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           break          
+      case 'info':
            client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, whatsapp, youtube, instagram,aktif, nomer, ontime), MessageType.text)
-           break
-       case 'info':
-           client.sendMessage(id, info.info(id, A187, tanggal, waktu,whatsapp, youtube, instagram,aktif, nomer, ontime), MessageType.text)
-           break
-       case 'donate':
-           client.sendMessage(id, donate.donate(id, A187, tanggal, waktu, whatsapp, youtube,instagram,aktif, nomer, ontime), MessageType.text)
-           break
+           break             
        case 'nulis':
            nulis(value)
                .then(data => {
