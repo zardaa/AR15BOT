@@ -1,13 +1,13 @@
 /*
-* "Wahai orang-orang yang beriman, mengapakah kamu mengatakan sesuatu yang tidak kamu kerjakan?
-* Amat besar kebencian di sisi Allah bahwa kamu mengatakan apa-apa yang tidak kamu kerjakan."
-* (QS ash-Shaff: 2-3).
+* JANGAN UBAH-UBAH INFO!!!
+* "JANGAN MODAL NAMA DOANG BRO!!!"
+* SCRIPT BY ARIS187 ID
+* JANGAN MODAL NAMA DOANG BOSQ
+* HARGAILAH YY MEMBUAT SCRIPT INI BOSQ
+* JANGAN UBAH-UBAH INFO!!!
+* ARIS187 ID
+* BOLEH UBAH TAPI KECUALI INFO!!!
 */
-
-/**
- * REFACTORING CODE by Ibnusyawall (https://github.com/ibnusyawall)
- * Don't delete this comment!
- */
 
 const qrcode = require("qrcode-terminal")
 const moment = require("moment-timezone")
