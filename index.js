@@ -27,7 +27,7 @@ const config = {
     waktu: time
 }
 
-const { BotName, tanggal, waktu, instagram, whatsapp, kapanbotaktif: ontime } = config
+const { A187, tanggal, waktu, instagram, nomer, aktif: ontime } = config
 
 const
 {
@@ -46,7 +46,7 @@ const
 const {
     menu,
     info,
-    donasi,
+    donate,
     alay,
     artinama,
     corona,
