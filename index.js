@@ -470,7 +470,7 @@ case 'puisi2':
                .catch(err => {
                    console.log(err)
                })
-           break        break
+           break        
            
            case 'zodiak':
  zodiak(value)
