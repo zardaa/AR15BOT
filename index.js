@@ -120,7 +120,7 @@ client.connect();
 
 client.on('message-status-update', json => {
    const participant = json.participant ? ' (' + json.participant + ')' : ''
-   console.log(`[ ${time} ] => bot by ig:@aditiaalfians`)
+   console.log(`[ ${time} ] => bot by ig:@_sadboy.ig`)
 })
 
 client.on('message-new', async (m) => {
@@ -146,8 +146,8 @@ client.on('message-new', async (m) => {
        case 'info':
            client.sendMessage(id, info.info(id, BotName, tanggal, waktu, instagram, whatsapp, ontime), MessageType.text)
            break
-       case 'donasi':
-           client.sendMessage(id, donasi.donasi(id, BotName, tanggal, waktu, instagram, whatsapp, ontime), MessageType.text)
+       case 'donate':
+           client.sendMessage(id, donate.donate(id, BotName, tanggal, waktu, instagram, whatsapp, ontime), MessageType.text)
            break
        case 'nulis':
            nulis(value)
