@@ -739,7 +739,7 @@ case 'filmanime':
                    console.log(err)
                })
            break
-          case '!creator':
+          case 'creator':
             client.sendContact(from, '6285722553839@c.us')
             break
       case 'tts':
