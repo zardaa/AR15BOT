@@ -81,7 +81,7 @@ const {
     chord,
     zodiak,
     fb,
-    !,
+    simi,
     wikien,
     spamsms,
     spamcall,
