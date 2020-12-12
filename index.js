@@ -141,13 +141,13 @@ client.on('message-new', async (m) => {
 
    switch (prefix) {
        case 'menu':
-           client.sendMessage(id, menu.menu(id, BotName, tanggal, waktu, instagram, whatsapp, ontime), MessageType.text)
+           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, instagram,aktif, nomer, ontime), MessageType.text)
            break
        case 'info':
-           client.sendMessage(id, info.info(id, BotName, tanggal, waktu, instagram, whatsapp, ontime), MessageType.text)
+           client.sendMessage(id, info.info(id, A187, tanggal, waktu, instagram,aktif, nomer, ontime), MessageType.text)
            break
        case 'donate':
-           client.sendMessage(id, donate.donate(id, BotName, tanggal, waktu, instagram, whatsapp, ontime), MessageType.text)
+           client.sendMessage(id, donate.donate(id, A187, tanggal, waktu, instagram,aktif, nomer, ontime), MessageType.text)
            break
        case 'nulis':
            nulis(value)
