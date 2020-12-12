@@ -6,9 +6,8 @@
 * HARGAILAH YY MEMBUAT SCRIPT INI BOSQ
 * JANGAN UBAH-UBAH INFO!!!
 * ARIS187 ID
-* BOLEH UBAH TAPI KECUALI INFO!!!
+* BOLEH UBAH TAPI KECUALI INFO ARIS187 ID!!!
 */
-
 const qrcode = require("qrcode-terminal")
 const moment = require("moment-timezone")
 const fs = require("fs")
@@ -19,12 +18,12 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: '👾AR15BOT👾',
-    instagram: 'https://instagram.com/_sadboy.ig',
-    nomer: 'wa.me/6285722553839',
-    aktif: '24 JAM',
-    youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg',
-    whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs',
+    A187: '👾AR15BOT👾', //KALIAN BEBAS UBAH KECUALI INFO ARIS187 ID
+    instagram: 'https://instagram.com/_sadboy.ig', //KALIAN BEBAS UBAH KECUALI INFO ARIS187 ID 
+    nomer: 'wa.me/6285722553839', //KALIAN BEBAS UBAH KECUALI INFO ARIS187 ID
+    aktif: '24 JAM', //KALIAN BEBAS UBAH KECUALI INFO ARIS187 ID
+    youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg', //KALIAN BEBAS UBAH KECUALI INFO ARIS187 ID
+    whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs', //KALIAN BEBAS UBAH KECUALI INFO ARIS187 ID
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
@@ -146,22 +145,22 @@ client.on('message-new', async (m) => {
 
    switch (prefix) {
        case 'help':
-           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, help.help(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
            break
        case 'menu1':
-           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, menu1.menu1(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
            break
        case 'menu2':
-           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, menu2.menu2(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
            break
        case 'menu3':
-           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, menu3.menu3(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
            break
       case 'donate':
-           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, donate.donate(id, A187, tanggal, waktu, whatsapp, youtube, instagram, aktif, nomer, ontime), MessageType.text)
            break          
       case 'info':
-           client.sendMessage(id, menu.menu(id, A187, tanggal, waktu, whatsapp, youtube, instagram,aktif, nomer, ontime), MessageType.text)
+           client.sendMessage(id, info.info(id, A187, tanggal, waktu, whatsapp, youtube, instagram,aktif, nomer, ontime), MessageType.text)
            break             
        case 'nulis':
            nulis(value)
@@ -188,7 +187,7 @@ client.on('message-new', async (m) => {
                    console.log(err)
                })
            break
-       case 'ytmp4':
+       case 'ytmp4': //KALIAN BEBAS UBAH KECUALI INFO ARIS187 ID
            ytdl('mp4', value)
                .then(data => {
                    const { judul, size, hasil: link } = data
@@ -459,7 +458,7 @@ case 'puisi2':
                    console.log(err)
                })
            break
-   case 'chord':
+   case 'chord': //KALIAN BEBAS UBAH KECUALI INFO ARIS187 ID
            chord(value)
                .then(data => {
                    const { result } = data
@@ -678,7 +677,7 @@ case 'filmanime':
                    console.log(err)
                })
            break
-           case 'waifu':
+           case 'waifu': //KALIAN BEBAS UBAH KECUALI INFO ARIS187 ID
            waifu()
                .then(buffer => {
                    client.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
@@ -820,5 +819,5 @@ case 'filmanime':
             break       
        default:
            break
-   }
+   }//KALIAN BEBAS UBAH KECUALI INFO ARIS187 ID
 })
