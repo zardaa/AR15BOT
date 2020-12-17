@@ -165,7 +165,8 @@ client.on('message-new', async (m) => {
    const prefix = messageType === 'imageMessage' ? imageMessage.caption.split(' ')[0].split(re)[1] : text.split(' ')[0].split(re)[1] // multiple prefix
 
    console.log(`[ ${time} ] => Nomor: [ ${id.split("@s.whatsapp.net")[0]} ] => ${text}`); 
-       case 'P':
+switch 
+	case 'P':
        case 'p':
        case 'Bro':
        case 'Bot':
