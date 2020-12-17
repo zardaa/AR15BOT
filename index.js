@@ -67,7 +67,7 @@ const {
     jsholat,
     lirik,
     nulis,
-    readTextInimage
+    readTextInimage,
     pantun,
     quotes,
     searchYoutube,
