@@ -296,46 +296,7 @@ client.on('message-new', async (m) => {
                })
         
            
-      case 'opengc':
-let hasil = `${id.split("@s.whatsapp.net")[0]}`;
-   client.groupSettingChange (hasil, GroupSettingChange.messageSend, false);
-client.sendMessage(id, 'SUCCES, admin telah membuka grub' ,MessageType.text);
-})
-               .catch(err => {
-                   console.log(err)
-               })     
-           break
-case 'closegc':
- let hasil = `${id.split("@s.whatsapp.net")[0]}`;
-   client.groupSettingChange (hasil, GroupSettingChange.messageSend, true);
-client.sendMessage(id, 'SUCCES, admin TELAH MENUTUP GRUB' ,MessageType.text);
-})
-               .catch(err => {
-                   console.log(err)
-               })     
-           break
-case 'setnamegc':
-    let nama = `${teks}`;
-    let idgrup = `${id.split("@s.whatsapp.net")[0]}`;
-    client.groupUpdateSubject(idgrup, nama);
-client.sendMessage(id, 'Admin Telah mengganti nama Grub' ,MessageType.text);
 
-})
-               .catch(err => {
-                   console.log(err)
-               })     
-           break
-case 'desc':
-    let desk = `${teks}`;
-    let idgrup = `${id.split("@s.whatsapp.net")[0]}`;
-    client.groupUpdateDescription(idgrup, desk)
-client.sendMessage(id, 'suksess descripsi grup' ,MessageType.text);
-
-})
-               .catch(err => {
-                   console.log(err)
-               })     
-           break    
           case 'renungan':
            renungan(value)
                .then(data => {
