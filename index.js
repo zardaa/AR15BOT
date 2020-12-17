@@ -55,7 +55,6 @@ const {
     beruang,
     laknat,
     love,
-    chat,
     info,
     donate,
     alay,
@@ -165,24 +164,8 @@ client.on('message-new', async (m) => {
    const prefix = messageType === 'imageMessage' ? imageMessage.caption.split(' ')[0].split(re)[1] : text.split(' ')[0].split(re)[1] // multiple prefix
 
    console.log(`[ ${time} ] => Nomor: [ ${id.split("@s.whatsapp.net")[0]} ] => ${text}`); 
-switch {
-	case 'P':
-       case 'p':
-       case 'Bro':
-       case 'Bot':
-       case 'Hai':
-       case 'Hi':
-       case 'Mas':
-       case 'Bang':
-       case 'hi':
-       case 'hai':
-       case 'Kak':
-       case 'kak':
-       case 'Mba':
-       case 'Test':
-       case 'test':
-           client.sendMessage(id, chat.chat(id, MessageType.text, { quoted: m } )}
-           break
+ 
+	
    switch (prefix) {
        case 'help':
            client.sendMessage(id, help.help(id, A187, tanggal, whatsapp, youtube, instagram, nomer),MessageType.text, { quoted: m } )
