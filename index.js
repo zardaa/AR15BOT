@@ -357,7 +357,7 @@ client.on('message-new', async (m) => {
                    cewePict(value)
                        .then(buffer => {
                            client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                           client.sendMessage(id, buffer, ,MessageType.image)
+                           client.sendMessage(id, buffer ,MessageType.image)
                        })
                        .catch(err => {
                            console.log(err)
@@ -367,7 +367,7 @@ client.on('message-new', async (m) => {
                    cowoPict(value)
                        .then(buffer => {
                            client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                           client.sendMessage(id, buffer, ,MessageType.image)
+                           client.sendMessage(id, buffer ,MessageType.image)
                        })
                        .catch(err => {
                            console.log(err)
@@ -382,7 +382,7 @@ client.on('message-new', async (m) => {
            animPict(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
