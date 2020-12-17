@@ -299,12 +299,13 @@ client.on('message-new', async (m) => {
  const options = {
        text: `@${nomor.split("@s.whatsapp.net")[0]} nieh dah aku tag!`,
        contextInfo: { mentionedJid: [nomor] }
- })
+ 
                    client.sendMessage(id, data,MessageType.text)
                })
                .catch(err => {
                    console.log(err)
-               })        
+               })
+           break
       case 'opengc':
 let hasil = `${id.split("@s.whatsapp.net")[0]}`;
    client.groupSettingChange (hasil, GroupSettingChange.messageSend, false);
