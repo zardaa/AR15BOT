@@ -168,13 +168,13 @@ client.on('message-new', async (m) => {
 	
    switch (prefix) {
        case 'help':
-           client.sendMessage(id, help.help(id, A187, tanggal, whatsapp, youtube, instagram, nomer),MessageType.text { quoted: m } )
+           client.sendMessage(id, help.help(id, A187, tanggal, whatsapp, youtube, instagram, nomer),MessageType.text)
            break      
       case 'donate':
-           client.sendMessage(id, donate.donate(id, A187, tanggal),MessageType.text { quoted: m } )
+           client.sendMessage(id, donate.donate(id, A187, tanggal),MessageType.text)
            break          
       case 'info':
-           client.sendMessage(id, info.info(id, A187, tanggal),MessageType.text { quoted: m } )
+           client.sendMessage(id, info.info(id, A187, tanggal),MessageType.text)
            break             
        case 'nulis':
            nulis(value)
