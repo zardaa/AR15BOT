@@ -190,13 +190,13 @@ client.on('message-new', async (m) => {
            await client.sendMessage(id, value,MessageType.text)
            break
         case 'rumah':
-           client.sendMessage(id, rumah.rumah(id, MessageType.text)
+           client.sendMessage(id, rumah.rumah(id), MessageType.text)
            break
        case 'beruang':
-           client.sendMessage(id, beruang.beruang(id, MessageType.text)
+           client.sendMessage(id, beruang.beruang(id), MessageType.text)
            break
        case 'love':
-           client.sendMessage(id, love.love(id, MessageType.text)
+           client.sendMessage(id, love.love(id), MessageType.text)
            break
        
        case 'ytmp3':
