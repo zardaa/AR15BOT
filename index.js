@@ -196,6 +196,9 @@ client.on('message-new', async (m) => {
        case 'beruang':
            client.sendMessage(id, beruang.beruang(id), MessageType.text)
            break
+		case 'love':
+           client.sendMessage(id, love.love(id, MessageType.text)
+           break   
        case 'laknat':
            client.sendMessage(id, laknat.laknat(id), MessageType.text)
            break
