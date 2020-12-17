@@ -85,7 +85,7 @@ const {
     gltext,
     cuaca, 
     texthunder,
-    memecrate,
+    memecreate,
     waifu2,
     blackpink,
     text3d,
