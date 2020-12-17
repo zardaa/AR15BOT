@@ -745,7 +745,7 @@ case 'filmanime':
            map(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -755,7 +755,7 @@ case 'filmanime':
            waifu(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer ,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -765,7 +765,7 @@ case 'filmanime':
            waifu2(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer ,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -775,7 +775,7 @@ case 'filmanime':
            randomcry(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -784,7 +784,7 @@ case 'filmanime':
            randomkis(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.imagegif,)
+                   client.sendMessage(id, buffer,MessageType.imagegif,)
                })
                .catch(err => {
                    console.log(err)
@@ -794,7 +794,7 @@ case 'filmanime':
            texthunder(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -804,7 +804,7 @@ case 'filmanime':
            loli(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -814,7 +814,7 @@ case 'filmanime':
            logogaming(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -824,7 +824,7 @@ case 'filmanime':
            ssweb(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -834,7 +834,7 @@ case 'filmanime':
            memecreate(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -844,7 +844,7 @@ case 'filmanime':
            gltext(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -853,7 +853,7 @@ case 'filmanime':
            blackpink(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -863,7 +863,7 @@ case 'filmanime':
            cooltext(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -873,7 +873,7 @@ case 'filmanime':
            ttp(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -882,7 +882,7 @@ case 'filmanime':
            pokemon(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -892,7 +892,7 @@ case 'filmanime':
            nekonime(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer ,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -901,7 +901,7 @@ case 'filmanime':
            randomkis(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
@@ -911,7 +911,7 @@ case 'filmanime':
            mp3(value)
                .then(buffer => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, buffer, ,MessageType.image)
+                   client.sendMessage(id, buffer ,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
