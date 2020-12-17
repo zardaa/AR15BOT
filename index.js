@@ -918,22 +918,7 @@ case 'filmanime':
                })
            break
          
-      case 'gtts':
-            rendom = `${Math.floor(Math.random() * 10000)}.mp3`
-					random = `${Math.floor(Math.random() * 20000)}.ogg`
-					if (args.length < 1) return client.sendMessage(from, 'Masukkan kode bahasanya juga mas e', MessageType.text)
-					const gtts = require('./lib/gtts')(args[1])
-					const dtt = body.slice(8)
-					if (!dtt) return client.sendMessage(from, 'Masukkan teks buat di jadiin suaranya juga mas e', MessageType.text)
-					if (dtt.length > 600) return client.sendMessage(from, 'Ngotak mas', MessageType.text)
-					gtts.save(rendom, dtt, function () {
-						exec(`ffmpeg -i ${rendom} -ar 48000 -vn -c:a libopus ${random}`, (error, stdout, stder) => {
-							let res = fs.readFileSync(random)
-							client.sendMessage(from, res, MessageType.audio, {ptt: true})
-							fs.unlinkSync(random)
-							fs.unlinkSync(rendom)
-						})
-            break     
+      
      case 'sticker':
             if (isMedia && type === 'image') {
                 const mediaData = await decryptMedia(message, uaOverride)
