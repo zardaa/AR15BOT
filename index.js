@@ -181,7 +181,7 @@ switch {
        case 'Mba':
        case 'Test':
        case 'test':
-           client.sendMessage(id, chat.chat(id, MessageType.text, { quoted: m } )
+           client.sendMessage(id, chat.chat(id, MessageType.text, { quoted: m } )}
            break
    switch (prefix) {
        case 'help':
