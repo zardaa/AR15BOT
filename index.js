@@ -180,7 +180,7 @@ client.on('message-new', async (m) => {
            nulis(value)
                .then(data => {
                    client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
-                   client.sendMessage(id, data, ,MessageType.image)
+                   client.sendMessage(id, data ,MessageType.image)
                })
                .catch(err => {
                    console.log(err)
