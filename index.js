@@ -61,7 +61,7 @@ const {
     artinama,
     corona,
     kbbi,
-    downloadimage
+    downloadimage,
     igStalk,
     jodoh,
     jsholat,
