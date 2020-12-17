@@ -198,9 +198,7 @@ client.on('message-new', async (m) => {
        case 'love':
            client.sendMessage(id, love.love(id, MessageType.text)
            break
-       case 'rumah':
-           client.sendMessage(id, rumah.rumah(id, MessageType.text)
-           break        
+       
        case 'ytmp3':
            ytdl('mp3', value)
                .then(data => {
