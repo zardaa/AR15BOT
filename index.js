@@ -13,10 +13,11 @@ const moment = require("moment-timezone")
 const fs = require("fs")
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'Aris\n' // full name
-            + 'ORG:C/O 👾AR15BOT👾 ;\n' // the organization of the contact
+            + 'FN:Aris\n' // full name
+            + 'ORG:Creator AR15BOT;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=6285722553839:+62 857-2255-3839\n' // WhatsApp ID + phone number
             + 'END:VCARD'
+
 const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
 const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
 
