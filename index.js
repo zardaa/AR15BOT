@@ -295,7 +295,7 @@ client.on('message-new', async (m) => {
                    console.log(err)
                })
        case 'tagme':
-               .var nomor = m.participant
+               var nomor = m.participant
  const options = {
        text: `@${nomor.split("@s.whatsapp.net")[0]} nieh dah aku tag!`,
        contextInfo: { mentionedJid: [nomor] }
